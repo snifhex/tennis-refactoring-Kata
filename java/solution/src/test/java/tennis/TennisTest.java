@@ -1,9 +1,18 @@
+package tennis;
+
 import org.junit.jupiter.params.ParameterizedTest;
 
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.params.provider.MethodSource;
+import tennis.TennisGame;
+import tennis.TennisGame1;
+import tennis.TennisGame2;
+import tennis.TennisGame3;
+import tennis.TennisGame4;
+import tennis.TennisGame5;
+import tennis.TennisGame6;
 
 public class TennisTest {
 
@@ -12,8 +21,8 @@ public class TennisTest {
                 {0, 0, "Love-All"},
                 {1, 1, "Fifteen-All"},
                 {2, 2, "Thirty-All"},
-                {3, 3, "Deuce"},
-                {4, 4, "Deuce"},
+                {3, 3, "tennis.Deuce"},
+                {4, 4, "tennis.Deuce"},
 
                 {1, 0, "Fifteen-Love"},
                 {0, 1, "Love-Fifteen"},
